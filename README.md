@@ -64,6 +64,7 @@ pip install --upgrade pip
 
 # 安裝 PyTorch (支援 CUDA)
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 # 安裝其他必要套件
 pip install openai-whisper tqdm colorama requests
